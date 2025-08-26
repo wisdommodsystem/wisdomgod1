@@ -151,7 +151,7 @@ module.exports = {
                     },
                     {
                         name: '📊 Submission Channel',
-                        value: `<#1398590055735627818>`,
+                        value: `<#1409971599377039370>`,
                         inline: true
                     },
                     {

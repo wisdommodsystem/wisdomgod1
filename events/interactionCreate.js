@@ -496,7 +496,7 @@ async function processApplication(interaction, language, answers, questions) {
         }
 
         // Send to submission channel
-        const submissionChannel = interaction.client.channels.cache.get('1398590055735627818');
+        const submissionChannel = interaction.client.channels.cache.get('1409971599377039370');
         if (submissionChannel) {
             await submissionChannel.send({ embeds: [applicationEmbed] });
         }

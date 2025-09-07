@@ -247,7 +247,7 @@ module.exports = {
         if (!command) return;
         
         // Check if command requires admin permissions (except avatar and banner)
-        const publicCommands = ['avatar', 'banner', 'a', 'av', 'b', 'ba'];
+const publicCommands = ['avatar', 'banner', 'a', 'av', 'b', 'ba', 'addbirthday', 'birthday', 'bd'];
         if (!publicCommands.includes(commandName.toLowerCase())) {
             if (!message.member.permissions.has(PermissionFlagsBits.Administrator)) {
                 return message.reply('❌ You need Administrator permissions to use this command!');
